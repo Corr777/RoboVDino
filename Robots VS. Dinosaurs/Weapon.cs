@@ -6,20 +6,21 @@ using System.Threading.Tasks;
 
 namespace Robots_VS.Dinosaurs
 {
-    class Weapons
+    class Weapon
     {
         public string particleBeam;
         public string plasmaRaygun;
         public string liquidNitroBomb;
 
         // constructor (SPAWNER)
-        public Weapons()
+        public Weapon()
         {
+            
            
         }
 
         // member methods (CAN DO)
-        public void selctionOfWeapon() // master method
+        public void selctionOfWeapon() 
         {
         
         

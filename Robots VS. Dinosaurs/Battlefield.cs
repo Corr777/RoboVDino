@@ -9,9 +9,9 @@ namespace Robots_VS.Dinosaurs
     class Battlefield
     {
 
-  //Member variable (Has A)
-    {                           
-        public string startGame;
+        //Member variable (Has A)
+        public Herd herdOfDinosaurs;
+        public Fleet fleetOfRobots;
         
        
 
@@ -20,9 +20,20 @@ namespace Robots_VS.Dinosaurs
 
         public Battlefield()
         {
+            herdOfDinosaurs = new Herd();
+            fleetOfRobots = new Fleet();
 
-            this.startGame[];
 
+        }
+
+        public void DoBattle()
+        {
+            // write down the steps for the game/battle
+
+
+
+            // example attack
+             herdOfDinosaurs.dinosaurs[0].Attack();
         }
 
 

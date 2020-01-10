@@ -11,60 +11,35 @@ namespace Robots_VS.Dinosaurs
                 //Member variable (Has A)
     {                           
        public string type;
-       public string energy;
-       public string health;
-       public string attackPower;
+       public double energy;
+       public double health;
+       public double attackPower;
 
 
         //Constructor (Spawn)
 
-        public Dinosaur() 
+        public Dinosaur(string Dinotype, double AttackPower) 
         {
-        
-        
-
-
-
-        
+            this.type = Dinotype;
+            this.energy = 100;
+            this.health = 100;
+            this.attackPower = AttackPower;
         }
 
 
         //Member methods (Can Do)
 
-        public void OperateDinosaur() 
-        
+        public void AttackRobot(Robot robot) 
         {
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+            robot.health -= attackPower;
         
         
         }
 
-        //accessibility _ return type _ method name _ (parameters)
-        public void selectType() /*Create list where user can select type*/
-        {
-            List<string> dinosaurs = new List<string>();
+        
 
-            dinosaurs.Add("MilwaukeeSaurs Rex");
-            dinosaurs.Add("UtahRaptor");
-            dinosaurs.Add("Atlantascopcosaurus");
-            dinosaurs.Add("ceratops ");
-            dinosaurs.Add("stegosaur");
-            dinosaurs.Add("Elopteryx");
-
-            foreach (string dinosaur in dinosaurs) ;
-
-
-            public void UsedEnergy()
+        public void UsedEnergy()
         {
 
 
@@ -83,22 +58,6 @@ namespace Robots_VS.Dinosaurs
 
         }
 
-        public void AttackPowerExpelled()
-        {
-
-
-
-
-
-
-
-
-
-
-
-
-
-        }
 
 
 
