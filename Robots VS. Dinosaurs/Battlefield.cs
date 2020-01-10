@@ -8,5 +8,31 @@ namespace Robots_VS.Dinosaurs
 {
     class Battlefield
     {
+
+  //Member variable (Has A)
+    {                           
+        public string startGame;
+        
+       
+
+
+        //Constructor (Spawn)
+
+        public Battlefield()
+        {
+
+            this.startGame[];
+
+        }
+
+
+
+
+
+
+
+
+
+
     }
 }
