@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Robots_VS.Dinosaurs
-{
+{ 
+
     class Battlefield
     {
 
@@ -31,10 +32,40 @@ namespace Robots_VS.Dinosaurs
             // write down the steps for the game/battle
 
 
+            for (int i = 0; i < fleetOfRobots.robot.Count; i++)
+            {
+                Dinosaur dinosaur = herdOfDinosaurs.dinosaurs[i];
+                fleetOfRobots.robot[i].Attack(dinosaur);
+            }
 
+            for (int i = 0; i < herdOfDinosaurs.dinosaurs.Count; i++)
+            {
+
+                Robot robot = fleetOfRobots.robot[i];
+                herdOfDinosaurs.dinosaurs[i].Attack(robot);
+         
+            }
+}   }   }
+
+         
+        
+
+
+
+
+
+
+
+
+
+
+
+           
             // example attack
-             herdOfDinosaurs.dinosaurs[0].Attack();
-        }
+            
+
+            
+            //herdOfDinosaurs.dinosaurs[0].attackPower();
 
 
 
@@ -45,5 +76,6 @@ namespace Robots_VS.Dinosaurs
 
 
 
-    }
-}
+
+
+

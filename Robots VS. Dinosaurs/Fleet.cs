@@ -20,21 +20,20 @@ namespace Robots_VS.Dinosaurs
             robot.Add(R8D8);
 
 
-            Robot goober = new Robot("goober", 5);
-            robot.Add(goober);
+            Robot Goober = new Robot("Goober", 5);
+            robot.Add(Goober);
 
 
-            Robot aeiou = new Robot("aeiou", 30);
-            robot.Add(aeiou);
+            Robot AeIoU = new Robot("AeIoU", 30);
+            robot.Add(AeIoU);
 
 
-            Robot bama = new Robot("bama", 20);
-            robot.Add(bama);
+            Robot Bama = new Robot("Bama", 20);
+            robot.Add(Bama);
 
 
             Robot DC = new Robot("DC", 40);
             robot.Add(DC);
-
 
         }
 

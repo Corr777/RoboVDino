@@ -18,9 +18,9 @@ namespace Robots_VS.Dinosaurs
 
         //Constructor (Spawn)
 
-        public Dinosaur(string Dinotype, double AttackPower) 
+        public Dinosaur(string Type, double AttackPower) 
         {
-            this.type = Dinotype;
+            this.type = Type;
             this.energy = 100;
             this.health = 100;
             this.attackPower = AttackPower;
@@ -29,10 +29,11 @@ namespace Robots_VS.Dinosaurs
 
         //Member methods (Can Do)
 
-        public void AttackRobot(Robot robot) 
+        public void Attack(Robot robot) 
         {
 
             robot.health -= attackPower;
+            
         
         
         }

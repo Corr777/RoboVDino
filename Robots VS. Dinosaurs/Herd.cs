@@ -12,23 +12,23 @@ namespace Robots_VS.Dinosaurs
 
         public Herd()
         {
-            Dinosaur milwaukeeSaursRex = new Dinosaur("MilwaukeeSaurs Rex", 30);
+            Dinosaur milwaukeeSaursRex = new Dinosaur("MilwaukeeSaurs Rex", 50);
             dinosaurs.Add(milwaukeeSaursRex);
 
             Dinosaur UtahRaptor = new Dinosaur("UtahRaptor", 10);
             dinosaurs.Add(UtahRaptor);
 
-            Dinosaur Atlantascopcosaurus = new Dinosaur("Atlantascopcosaurus", 30);
+            Dinosaur Atlantascopcosaurus = new Dinosaur("Atlantascopcosaurus", 60);
             dinosaurs.Add(Atlantascopcosaurus);
 
-            Dinosaur ceratops = new Dinosaur("ceratops", 10);
-            dinosaurs.Add(ceratops);
+            Dinosaur Orleansceratops = new Dinosaur("Orleansceratops", 40);
+            dinosaurs.Add(Orleansceratops);
 
-            Dinosaur stegosaur = new Dinosaur("stegosaur", 30);
-            dinosaurs.Add(stegosaur);
+            Dinosaur Bamastegosaur = new Dinosaur("Bamastegosaur", 5);
+            dinosaurs.Add(Bamastegosaur);
 
-            Dinosaur Elopteryx = new Dinosaur("Elopteryx", 10);
-            dinosaurs.Add(Elopteryx);
+            Dinosaur JacksonElopteryx = new Dinosaur("JacksonElopteryx", 20);
+            dinosaurs.Add(JacksonElopteryx);
 
         }
 

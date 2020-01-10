@@ -9,7 +9,7 @@ namespace Robots_VS.Dinosaurs
     class Weapon
     {
         public string particleBeam;
-        public string plasmaRaygun;
+        public string plasmaRayGun;
         public string liquidNitroBomb;
 
         // constructor (SPAWNER)
