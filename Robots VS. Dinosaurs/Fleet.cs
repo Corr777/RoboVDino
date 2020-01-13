@@ -12,28 +12,17 @@ namespace Robots_VS.Dinosaurs
 
         public Fleet()
         {
-            Robot D4LGA = new Robot("D4LGA", 50);
+            Robot D4LGA = new Robot("D4LGA", 100, 100, 50);
             robot.Add(D4LGA);
 
 
-            Robot R8D8 = new Robot("R8D8", 10);
+            Robot R8D8 = new Robot("R8D8", 100, 100, 10);
             robot.Add(R8D8);
 
 
-            Robot Goober = new Robot("Goober", 5);
-            robot.Add(Goober);
-
-
-            Robot AeIoU = new Robot("AeIoU", 30);
+            Robot AeIoU = new Robot("AeIoU", 100, 100, 30);
             robot.Add(AeIoU);
 
-
-            Robot Bama = new Robot("Bama", 20);
-            robot.Add(Bama);
-
-
-            Robot DC = new Robot("DC", 40);
-            robot.Add(DC);
 
         }
 

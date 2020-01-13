@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Robots_VS.Dinosaurs
-{ 
+{
 
     class Battlefield
     {
@@ -13,9 +9,13 @@ namespace Robots_VS.Dinosaurs
         //Member variable (Has A)
         public Herd herdOfDinosaurs;
         public Fleet fleetOfRobots;
-        
-       
+        public double RoboHealth;
+        public double DinoHealth;
 
+        public void Greeting() 
+        {
+            Console.WriteLine("Robots Vs. Dinosaurs 2020");
+        }
 
         //Constructor (Spawn)
 
@@ -23,13 +23,16 @@ namespace Robots_VS.Dinosaurs
         {
             herdOfDinosaurs = new Herd();
             fleetOfRobots = new Fleet();
-
-
+           
         }
+
+
 
         public void DoBattle()
         {
-            // write down the steps for the game/battle
+            
+
+            // CAN Do
 
 
             for (int i = 0; i < fleetOfRobots.robot.Count; i++)
@@ -40,32 +43,63 @@ namespace Robots_VS.Dinosaurs
 
             for (int i = 0; i < herdOfDinosaurs.dinosaurs.Count; i++)
             {
-
                 Robot robot = fleetOfRobots.robot[i];
                 herdOfDinosaurs.dinosaurs[i].Attack(robot);
-         
+
             }
-}   }   }
-
-         
-        
-
-
-
-
-
-
-
-
-
-
-
-           
-            // example attack
+            Console.ReadLine();
             
 
-            
-            //herdOfDinosaurs.dinosaurs[0].attackPower();
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// example attack
+
+
+
+//herdOfDinosaurs.dinosaurs[0].attackPower();
 
 
 
