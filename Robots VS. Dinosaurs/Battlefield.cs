@@ -3,38 +3,38 @@
 namespace Robots_VS.Dinosaurs
 {
 
-    class Battlefield
+    public class Battlefield
     {
 
         //Member variable (Has A)
         public Herd herdOfDinosaurs;
-        public Fleet fleetOfRobots;
+        public string fleetOfRobots;
         public double RoboHealth;
         public double DinoHealth;
 
-        public void Greeting() 
-        {
-            Console.WriteLine("Robots Vs. Dinosaurs 2020");
-        }
 
         //Constructor (Spawn)
+        public void BattleField() 
+        {
+            this.RoboHealth = 100;
+            this.DinoHealth = 100;
+        }
 
-        public Battlefield()
+       
+
+        public void StaffingBattlefield()
         {
             herdOfDinosaurs = new Herd();
             fleetOfRobots = new Fleet();
            
+
         }
 
-
+        // CAN Do
 
         public void DoBattle()
         {
             
-
-            // CAN Do
-
-
             for (int i = 0; i < fleetOfRobots.robot.Count; i++)
             {
                 Dinosaur dinosaur = herdOfDinosaurs.dinosaurs[i];
@@ -47,21 +47,18 @@ namespace Robots_VS.Dinosaurs
                 herdOfDinosaurs.dinosaurs[i].Attack(robot);
 
             }
-            Console.ReadLine();
+            
+            
+        }
+
+
+        public void Calc()
+        {
             
 
 
 
-
-
-
-
-
-
         }
-
-
-
 
 
 
@@ -95,11 +92,6 @@ namespace Robots_VS.Dinosaurs
 
 
 
-// example attack
-
-
-
-//herdOfDinosaurs.dinosaurs[0].attackPower();
 
 
 

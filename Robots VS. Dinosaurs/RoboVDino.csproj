@@ -52,6 +52,7 @@
     <Compile Include="..\..\..\..\Desktop\devCodecamp\Robot.cs">
       <Link>Robot.cs</Link>
     </Compile>
+    <Compile Include="Robot1.cs" />
     <Compile Include="Weapon.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -2,11 +2,16 @@
 
 namespace Robots_VS.Dinosaurs
 {
-    class Herd
+    public class Herd
     {
         public List<Dinosaur> dinosaurs = new List<Dinosaur>();
 
-        public Herd()
+        public  Herd()
+        {
+            
+        }
+
+        public void AddHerd() 
         {
             Dinosaur milwaukeeSaursRex = new Dinosaur("MilwaukeeSaurs Rex", 50, 100, 100);
             dinosaurs.Add(milwaukeeSaursRex);
@@ -17,9 +22,9 @@ namespace Robots_VS.Dinosaurs
             Dinosaur Atlantascopcosaurus = new Dinosaur("Atlantascopcosaurus", 60, 100, 100);
             dinosaurs.Add(Atlantascopcosaurus);
 
-        }
 
-        
+
+        }
 
 
 

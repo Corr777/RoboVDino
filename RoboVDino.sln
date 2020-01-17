@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robots VS. Dinosaurs", "Robots VS. Dinosaurs\Robots VS. Dinosaurs.csproj", "{CCD572A3-F38B-4C17-8C9F-0C0F1413899B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboVDino", "Robots VS. Dinosaurs\RoboVDino.csproj", "{CCD572A3-F38B-4C17-8C9F-0C0F1413899B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

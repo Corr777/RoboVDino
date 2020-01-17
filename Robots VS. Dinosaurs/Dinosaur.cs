@@ -1,6 +1,6 @@
 ﻿namespace Robots_VS.Dinosaurs
 {
-    class Dinosaur
+    public class Dinosaur
 
     //Member variable (Has A)
     {
@@ -12,7 +12,7 @@
 
         //Constructor 
 
-        public Dinosaur(string Type, double AttackPower, double energy, double health)
+        public  Dinosaur(string Type, double AttackPower, double energy, double health)
         {
             this.type = Type;
             this.energy = energy;
